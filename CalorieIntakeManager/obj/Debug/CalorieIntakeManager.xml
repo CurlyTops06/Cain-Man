@@ -1,0 +1,151 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+CalorieIntakeManager
+</name>
+</assembly>
+<members>
+<member name="T:CalorieIntakeManager.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:CalorieIntakeManager.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:CalorieIntakeManager.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:CalorieIntakeManager.UserAccountDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:CalorieIntakeManager.UserAccountDataSet.tbl_FoodDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:CalorieIntakeManager.UserAccountDataSet.User_AccountDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:CalorieIntakeManager.UserAccountDataSet.tbl_AddedFoodDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:CalorieIntakeManager.UserAccountDataSet.UsersSecurityDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:CalorieIntakeManager.UserAccountDataSet.User_AccountRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:CalorieIntakeManager.UserAccountDataSet.tbl_FoodRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:CalorieIntakeManager.UserAccountDataSet.tbl_AddedFoodRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:CalorieIntakeManager.UserAccountDataSet.UsersSecurityRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:CalorieIntakeManager.UserAccountDataSet.User_AccountRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:CalorieIntakeManager.UserAccountDataSet.tbl_FoodRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:CalorieIntakeManager.UserAccountDataSet.tbl_AddedFoodRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:CalorieIntakeManager.UserAccountDataSet.UsersSecurityRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:CalorieIntakeManager.UserAccountDataSetTableAdapters.User_AccountTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:CalorieIntakeManager.UserAccountDataSetTableAdapters.tbl_FoodTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:CalorieIntakeManager.UserAccountDataSetTableAdapters.tbl_AddedFoodTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:CalorieIntakeManager.UserAccountDataSetTableAdapters.UsersSecurityTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:CalorieIntakeManager.UserAccountDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:CalorieIntakeManager.UserAccountDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(CalorieIntakeManager.UserAccountDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:CalorieIntakeManager.UserAccountDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(CalorieIntakeManager.UserAccountDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:CalorieIntakeManager.UserAccountDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(CalorieIntakeManager.UserAccountDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:CalorieIntakeManager.UserAccountDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:CalorieIntakeManager.UserAccountDataSetTableAdapters.TableAdapterManager.UpdateAll(CalorieIntakeManager.UserAccountDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:CalorieIntakeManager.UserAccountDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:CalorieIntakeManager.UserAccountDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>

@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="UserAccountDB" Class="UserAccountStoredProceduresDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\UserAccountDB.mdf;Integrated Security=True" SettingsObjectName="CalorieIntakeManager.My.MySettings" SettingsPropertyName="UserAccountDBConnectionString" Provider="System.Data.SqlClient" />
+  <Function Name="dbo.SelectByID" Method="SelectByID">
+    <Parameter Name="User_ID" Parameter="user_ID" Type="System.Decimal" DbType="Decimal(18,0)" />
+    <ElementType Name="SelectByIDResult">
+      <Column Name="User_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Full_Name" Type="System.String" DbType="NChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="Gender" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Age" Type="System.Decimal" DbType="Decimal(18,0) NOT NULL" CanBeNull="false" />
+      <Column Name="Height" Type="System.Decimal" DbType="Decimal(18,0) NOT NULL" CanBeNull="false" />
+      <Column Name="Weight" Type="System.Decimal" DbType="Decimal(18,0) NOT NULL" CanBeNull="false" />
+      <Column Name="User_Name" Type="System.String" DbType="NChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="User_Password" Type="System.String" DbType="NChar(10) NOT NULL" CanBeNull="false" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.checkUser" Method="checkUser">
+    <Parameter Name="User_Name" Parameter="user_Name" Type="System.String" DbType="NVarChar(MAX)" />
+    <Parameter Name="User_Password" Parameter="user_Password" Type="System.String" DbType="NVarChar(MAX)" />
+    <ElementType Name="checkUserResult">
+      <Column Name="User_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Full_Name" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="Gender" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Age" Type="System.Decimal" DbType="Decimal(18,0) NOT NULL" CanBeNull="false" />
+      <Column Name="Height" Type="System.Decimal" DbType="Decimal(18,0) NOT NULL" CanBeNull="false" />
+      <Column Name="Weight" Type="System.Decimal" DbType="Decimal(18,0) NOT NULL" CanBeNull="false" />
+      <Column Name="User_Name" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="User_Password" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.CreateNewAccount" Method="CreateNewAccount">
+    <Parameter Name="Full_Name" Parameter="full_Name" Type="System.String" DbType="NVarChar(MAX)" />
+    <Parameter Name="Gender" Parameter="gender" Type="System.String" DbType="NVarChar(MAX)" />
+    <Parameter Name="Age" Parameter="age" Type="System.Decimal" DbType="Decimal(18,0)" />
+    <Parameter Name="Height" Parameter="height" Type="System.Decimal" DbType="Decimal(18,0)" />
+    <Parameter Name="Weight" Parameter="weight" Type="System.Decimal" DbType="Decimal(18,0)" />
+    <Parameter Name="User_Name" Parameter="user_Name" Type="System.String" DbType="NVarChar(MAX)" />
+    <Parameter Name="User_Password" Parameter="user_Password" Type="System.String" DbType="NVarChar(MAX)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.SelectByDescription" Method="SelectByDescription">
+    <Parameter Name="Food_Description" Parameter="food_Description" Type="System.String" DbType="NVarChar(MAX)" />
+    <ElementType Name="SelectByDescriptionResult">
+      <Column Name="Food_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Food_Name" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="Food_Description" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Amount_Per" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="Calories" Type="System.Decimal" DbType="Decimal(18,0) NOT NULL" CanBeNull="false" />
+      <Column Name="Food_Picture" Type="System.Data.Linq.Binary" DbType="Image" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.SelectByFoodID" Method="SelectByFoodID">
+    <Parameter Name="Food_ID" Parameter="food_ID" Type="System.Decimal" DbType="Decimal(18,0)" />
+    <ElementType Name="SelectByFoodIDResult">
+      <Column Name="Food_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Food_Name" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="Food_Description" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Amount_Per" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="Calories" Type="System.Decimal" DbType="Decimal(18,0) NOT NULL" CanBeNull="false" />
+      <Column Name="Food_Picture" Type="System.Data.Linq.Binary" DbType="Image" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.SelectByFoodName" Method="SelectByFoodName">
+    <Parameter Name="Food_Name" Parameter="food_Name" Type="System.String" DbType="NVarChar(MAX)" />
+    <ElementType Name="SelectByFoodNameResult">
+      <Column Name="Food_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Food_Name" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="Food_Description" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Amount_Per" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="Calories" Type="System.Decimal" DbType="Decimal(18,0) NOT NULL" CanBeNull="false" />
+      <Column Name="Food_Picture" Type="System.Data.Linq.Binary" DbType="Image" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.SelectByAmountPer" Method="SelectByAmountPer">
+    <Parameter Name="Amount_Per" Parameter="amount_Per" Type="System.String" DbType="NVarChar(MAX)" />
+    <ElementType Name="SelectByAmountPerResult">
+      <Column Name="Food_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Food_Name" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="Food_Description" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Amount_Per" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="Calories" Type="System.Decimal" DbType="Decimal(18,0) NOT NULL" CanBeNull="false" />
+      <Column Name="Food_Picture" Type="System.Data.Linq.Binary" DbType="Image" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.SelectByCalories" Method="SelectByCalories">
+    <Parameter Name="Start" Parameter="start" Type="System.Decimal" DbType="Decimal(18,0)" />
+    <Parameter Name="End" Parameter="end" Type="System.Decimal" DbType="Decimal(18,0)" />
+    <ElementType Name="SelectByCaloriesResult">
+      <Column Name="Food_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Food_Name" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="Food_Description" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Amount_Per" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="Calories" Type="System.Decimal" DbType="Decimal(18,0) NOT NULL" CanBeNull="false" />
+      <Column Name="Food_Picture" Type="System.Data.Linq.Binary" DbType="Image" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.AddFood" Method="AddFood">
+    <Parameter Name="Food_Name" Parameter="food_Name" Type="System.String" DbType="NVarChar(MAX)" />
+    <Parameter Name="Calories" Parameter="calories" Type="System.Decimal" DbType="Decimal(18,0)" />
+    <Parameter Name="AddedDateTime" Parameter="addedDateTime" Type="System.DateTime" DbType="DateTime" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.AddCalorieGoal" Method="AddCalorieGoal">
+    <Parameter Name="User_ID" Parameter="user_ID" Type="System.Decimal" DbType="Decimal(18,0)" />
+    <Parameter Name="Full_Name" Parameter="full_Name" Type="System.String" DbType="NVarChar(MAX)" />
+    <Parameter Name="Gender" Parameter="gender" Type="System.String" DbType="NVarChar(MAX)" />
+    <Parameter Name="Age" Parameter="age" Type="System.Decimal" DbType="Decimal(18,0)" />
+    <Parameter Name="Height" Parameter="height" Type="System.Decimal" DbType="Decimal(18,0)" />
+    <Parameter Name="Weight" Parameter="weight" Type="System.Decimal" DbType="Decimal(18,0)" />
+    <Parameter Name="User_Name" Parameter="user_Name" Type="System.String" DbType="NVarChar(MAX)" />
+    <Parameter Name="User_Password" Parameter="user_Password" Type="System.String" DbType="NVarChar(MAX)" />
+    <Parameter Name="Calorie_Goal" Parameter="calorie_Goal" Type="System.Decimal" DbType="Decimal(18,0)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.DeleteHistory" Method="DeleteHistory">
+    <Parameter Name="AddedFood_ID" Parameter="addedFood_ID" Type="System.Decimal" DbType="Decimal(18,0)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.DeleteAllHistory" Method="DeleteAllHistory">
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.UpdateAccount" Method="UpdateAccount">
+    <Parameter Name="User_ID" Parameter="user_ID" Type="System.Decimal" DbType="Decimal(18,0)" />
+    <Parameter Name="Full_Name" Parameter="full_Name" Type="System.String" DbType="NVarChar(MAX)" />
+    <Parameter Name="Gender" Parameter="gender" Type="System.String" DbType="NVarChar(MAX)" />
+    <Parameter Name="Age" Parameter="age" Type="System.Decimal" DbType="Decimal(18,0)" />
+    <Parameter Name="Height" Parameter="height" Type="System.Decimal" DbType="Decimal(18,0)" />
+    <Parameter Name="Weight" Parameter="weight" Type="System.Decimal" DbType="Decimal(18,0)" />
+    <Parameter Name="User_Name" Parameter="user_Name" Type="System.String" DbType="NVarChar(MAX)" />
+    <Parameter Name="User_Password" Parameter="user_Password" Type="System.String" DbType="NVarChar(MAX)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.DisplayInfo" Method="DisplayInfo">
+    <Parameter Name="FullName" Parameter="fullName" Type="System.String" DbType="NVarChar(50)" />
+    <ElementType Name="DisplayInfoResult">
+      <Column Name="User_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Full_Name" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="Gender" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Age" Type="System.Decimal" DbType="Decimal(18,0) NOT NULL" CanBeNull="false" />
+      <Column Name="Height" Type="System.Decimal" DbType="Decimal(18,0) NOT NULL" CanBeNull="false" />
+      <Column Name="Weight" Type="System.Decimal" DbType="Decimal(18,0) NOT NULL" CanBeNull="false" />
+      <Column Name="User_Name" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="User_Password" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="Calorie_Goal" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.InputThreeWordsUser" Method="InputThreeWordsUser">
+    <Parameter Name="FullName" Parameter="fullName" Type="System.String" DbType="NVarChar(MAX)" />
+    <Parameter Name="ThreeWords" Parameter="threeWords" Type="System.String" DbType="NVarChar(MAX)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.CheckSecurity" Method="CheckSecurity">
+    <Parameter Name="FullName" Parameter="fullName" Type="System.String" DbType="NVarChar(MAX)" />
+    <ElementType Name="CheckSecurityResult">
+      <Column Name="UserSecurityID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="FullName" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="ThreeWords" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+    </ElementType>
+  </Function>
+</Database>

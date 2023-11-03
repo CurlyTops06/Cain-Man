@@ -1,0 +1,72 @@
+C:\Users\ricse\source\repos\CalorieIntakeManager\CalorieIntakeManager\obj\Debug\CalorieIntakeManager.WelcomeForm.resources
+C:\Users\ricse\source\repos\CalorieIntakeManager\CalorieIntakeManager\obj\Debug\CalorieIntakeManager.SignInForm.resources
+C:\Users\ricse\source\repos\CalorieIntakeManager\CalorieIntakeManager\obj\Debug\CalorieIntakeManager.CIMMainForm.resources
+C:\Users\ricse\source\repos\CalorieIntakeManager\CalorieIntakeManager\obj\Debug\CalorieIntakeManager.New_Account.resources
+C:\Users\ricse\source\repos\CalorieIntakeManager\CalorieIntakeManager\obj\Debug\CalorieIntakeManager.vbproj.GenerateResource.cache
+C:\Users\ricse\source\repos\CalorieIntakeManager\CalorieIntakeManager\bin\Debug\UserAccountDB.mdf
+C:\Users\ricse\source\repos\CalorieIntakeManager\CalorieIntakeManager\bin\Debug\UserAccountDB_log.ldf
+C:\Users\ricse\source\repos\CalorieIntakeManager\CalorieIntakeManager\bin\Debug\UserAccountDataSet.Designer.vb
+C:\Users\ricse\source\repos\CalorieIntakeManager\CalorieIntakeManager\bin\Debug\UserAccountStoredProcedures.designer.vb
+C:\Users\ricse\source\repos\CalorieIntakeManager\CalorieIntakeManager\bin\Debug\UserAccountDataSet.xsc
+C:\Users\ricse\source\repos\CalorieIntakeManager\CalorieIntakeManager\bin\Debug\UserAccountDataSet.xsd
+C:\Users\ricse\source\repos\CalorieIntakeManager\CalorieIntakeManager\bin\Debug\UserAccountDataSet.xss
+C:\Users\ricse\source\repos\CalorieIntakeManager\CalorieIntakeManager\bin\Debug\UserAccountStoredProcedures.dbml
+C:\Users\ricse\source\repos\CalorieIntakeManager\CalorieIntakeManager\bin\Debug\UserAccountStoredProcedures.dbml.layout
+C:\Users\ricse\source\repos\CalorieIntakeManager\CalorieIntakeManager\bin\Debug\CalorieIntakeManager.exe.config
+C:\Users\ricse\source\repos\CalorieIntakeManager\CalorieIntakeManager\bin\Debug\CalorieIntakeManager.exe
+C:\Users\ricse\source\repos\CalorieIntakeManager\CalorieIntakeManager\bin\Debug\CalorieIntakeManager.pdb
+C:\Users\ricse\source\repos\CalorieIntakeManager\CalorieIntakeManager\bin\Debug\CalorieIntakeManager.xml
+C:\Users\ricse\source\repos\CalorieIntakeManager\CalorieIntakeManager\obj\Debug\CalorieIntakeManager.vbprojAssemblyReference.cache
+C:\Users\ricse\source\repos\CalorieIntakeManager\CalorieIntakeManager\obj\Debug\CalorieIntakeManager.Resources.resources
+C:\Users\ricse\source\repos\CalorieIntakeManager\CalorieIntakeManager\obj\Debug\CalorieIntakeManager.vbproj.CoreCompileInputs.cache
+C:\Users\ricse\source\repos\CalorieIntakeManager\CalorieIntakeManager\obj\Debug\CalorieIntakeManager.exe
+C:\Users\ricse\source\repos\CalorieIntakeManager\CalorieIntakeManager\obj\Debug\CalorieIntakeManager.xml
+C:\Users\ricse\source\repos\CalorieIntakeManager\CalorieIntakeManager\obj\Debug\CalorieIntakeManager.pdb
+C:\Users\Paul William Quiliop\Downloads\CalorieIntakeManager\CalorieIntakeManager\bin\Debug\UserAccountDataSet.Designer.vb
+C:\Users\Paul William Quiliop\Downloads\CalorieIntakeManager\CalorieIntakeManager\bin\Debug\UserAccountStoredProcedures.designer.vb
+C:\Users\Paul William Quiliop\Downloads\CalorieIntakeManager\CalorieIntakeManager\bin\Debug\UserAccountDataSet.xsc
+C:\Users\Paul William Quiliop\Downloads\CalorieIntakeManager\CalorieIntakeManager\bin\Debug\UserAccountDataSet.xsd
+C:\Users\Paul William Quiliop\Downloads\CalorieIntakeManager\CalorieIntakeManager\bin\Debug\UserAccountDataSet.xss
+C:\Users\Paul William Quiliop\Downloads\CalorieIntakeManager\CalorieIntakeManager\bin\Debug\UserAccountStoredProcedures.dbml
+C:\Users\Paul William Quiliop\Downloads\CalorieIntakeManager\CalorieIntakeManager\bin\Debug\UserAccountStoredProcedures.dbml.layout
+C:\Users\Paul William Quiliop\Downloads\CalorieIntakeManager\CalorieIntakeManager\bin\Debug\UserAccountDB.mdf
+C:\Users\Paul William Quiliop\Downloads\CalorieIntakeManager\CalorieIntakeManager\bin\Debug\UserAccountDB_log.ldf
+C:\Users\Paul William Quiliop\Downloads\CalorieIntakeManager\CalorieIntakeManager\bin\Debug\CalorieIntakeManager.exe.config
+C:\Users\Paul William Quiliop\Downloads\CalorieIntakeManager\CalorieIntakeManager\bin\Debug\CalorieIntakeManager.exe
+C:\Users\Paul William Quiliop\Downloads\CalorieIntakeManager\CalorieIntakeManager\bin\Debug\CalorieIntakeManager.pdb
+C:\Users\Paul William Quiliop\Downloads\CalorieIntakeManager\CalorieIntakeManager\bin\Debug\CalorieIntakeManager.xml
+C:\Users\Paul William Quiliop\Downloads\CalorieIntakeManager\CalorieIntakeManager\obj\Debug\CalorieIntakeManager.vbproj.AssemblyReference.cache
+C:\Users\Paul William Quiliop\Downloads\CalorieIntakeManager\CalorieIntakeManager\obj\Debug\CalorieIntakeManager.WelcomeForm.resources
+C:\Users\Paul William Quiliop\Downloads\CalorieIntakeManager\CalorieIntakeManager\obj\Debug\CalorieIntakeManager.SignInForm.resources
+C:\Users\Paul William Quiliop\Downloads\CalorieIntakeManager\CalorieIntakeManager\obj\Debug\CalorieIntakeManager.CIMMainForm.resources
+C:\Users\Paul William Quiliop\Downloads\CalorieIntakeManager\CalorieIntakeManager\obj\Debug\CalorieIntakeManager.Resources.resources
+C:\Users\Paul William Quiliop\Downloads\CalorieIntakeManager\CalorieIntakeManager\obj\Debug\CalorieIntakeManager.New_Account.resources
+C:\Users\Paul William Quiliop\Downloads\CalorieIntakeManager\CalorieIntakeManager\obj\Debug\CalorieIntakeManager.vbproj.GenerateResource.cache
+C:\Users\Paul William Quiliop\Downloads\CalorieIntakeManager\CalorieIntakeManager\obj\Debug\CalorieIntakeManager.vbproj.CoreCompileInputs.cache
+C:\Users\Paul William Quiliop\Downloads\CalorieIntakeManager\CalorieIntakeManager\obj\Debug\CalorieIntakeManager.exe
+C:\Users\Paul William Quiliop\Downloads\CalorieIntakeManager\CalorieIntakeManager\obj\Debug\CalorieIntakeManager.xml
+C:\Users\Paul William Quiliop\Downloads\CalorieIntakeManager\CalorieIntakeManager\obj\Debug\CalorieIntakeManager.pdb
+E:\School Files\3rd Year 1st Sem\Software Engineering\CalorieIntakeManager\CalorieIntakeManager\bin\Debug\UserAccountDataSet.Designer.vb
+E:\School Files\3rd Year 1st Sem\Software Engineering\CalorieIntakeManager\CalorieIntakeManager\bin\Debug\UserAccountStoredProcedures.designer.vb
+E:\School Files\3rd Year 1st Sem\Software Engineering\CalorieIntakeManager\CalorieIntakeManager\bin\Debug\UserAccountDataSet.xsc
+E:\School Files\3rd Year 1st Sem\Software Engineering\CalorieIntakeManager\CalorieIntakeManager\bin\Debug\UserAccountDataSet.xsd
+E:\School Files\3rd Year 1st Sem\Software Engineering\CalorieIntakeManager\CalorieIntakeManager\bin\Debug\UserAccountDataSet.xss
+E:\School Files\3rd Year 1st Sem\Software Engineering\CalorieIntakeManager\CalorieIntakeManager\bin\Debug\UserAccountStoredProcedures.dbml
+E:\School Files\3rd Year 1st Sem\Software Engineering\CalorieIntakeManager\CalorieIntakeManager\bin\Debug\UserAccountStoredProcedures.dbml.layout
+E:\School Files\3rd Year 1st Sem\Software Engineering\CalorieIntakeManager\CalorieIntakeManager\bin\Debug\UserAccountDB.mdf
+E:\School Files\3rd Year 1st Sem\Software Engineering\CalorieIntakeManager\CalorieIntakeManager\bin\Debug\UserAccountDB_log.ldf
+E:\School Files\3rd Year 1st Sem\Software Engineering\CalorieIntakeManager\CalorieIntakeManager\bin\Debug\CalorieIntakeManager.exe.config
+E:\School Files\3rd Year 1st Sem\Software Engineering\CalorieIntakeManager\CalorieIntakeManager\bin\Debug\CalorieIntakeManager.exe
+E:\School Files\3rd Year 1st Sem\Software Engineering\CalorieIntakeManager\CalorieIntakeManager\bin\Debug\CalorieIntakeManager.pdb
+E:\School Files\3rd Year 1st Sem\Software Engineering\CalorieIntakeManager\CalorieIntakeManager\bin\Debug\CalorieIntakeManager.xml
+E:\School Files\3rd Year 1st Sem\Software Engineering\CalorieIntakeManager\CalorieIntakeManager\obj\Debug\CalorieIntakeManager.vbproj.AssemblyReference.cache
+E:\School Files\3rd Year 1st Sem\Software Engineering\CalorieIntakeManager\CalorieIntakeManager\obj\Debug\CalorieIntakeManager.WelcomeForm.resources
+E:\School Files\3rd Year 1st Sem\Software Engineering\CalorieIntakeManager\CalorieIntakeManager\obj\Debug\CalorieIntakeManager.SignInForm.resources
+E:\School Files\3rd Year 1st Sem\Software Engineering\CalorieIntakeManager\CalorieIntakeManager\obj\Debug\CalorieIntakeManager.CIMMainForm.resources
+E:\School Files\3rd Year 1st Sem\Software Engineering\CalorieIntakeManager\CalorieIntakeManager\obj\Debug\CalorieIntakeManager.Resources.resources
+E:\School Files\3rd Year 1st Sem\Software Engineering\CalorieIntakeManager\CalorieIntakeManager\obj\Debug\CalorieIntakeManager.New_Account.resources
+E:\School Files\3rd Year 1st Sem\Software Engineering\CalorieIntakeManager\CalorieIntakeManager\obj\Debug\CalorieIntakeManager.vbproj.GenerateResource.cache
+E:\School Files\3rd Year 1st Sem\Software Engineering\CalorieIntakeManager\CalorieIntakeManager\obj\Debug\CalorieIntakeManager.vbproj.CoreCompileInputs.cache
+E:\School Files\3rd Year 1st Sem\Software Engineering\CalorieIntakeManager\CalorieIntakeManager\obj\Debug\CalorieIntakeManager.exe
+E:\School Files\3rd Year 1st Sem\Software Engineering\CalorieIntakeManager\CalorieIntakeManager\obj\Debug\CalorieIntakeManager.xml
+E:\School Files\3rd Year 1st Sem\Software Engineering\CalorieIntakeManager\CalorieIntakeManager\obj\Debug\CalorieIntakeManager.pdb
